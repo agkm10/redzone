@@ -24,12 +24,12 @@ angular.module('redzoneApp').service('teamService', function() {
         image: "./images/jeff.jpg",
         twitchId: "Magoo216969",
         format: "right",
-        twitchImg: "..images/magoo.jpeg"
+        twitchImg: "./images/magoo.jpeg"
     }, {
         name: "Kevin Lafountain",
         gamerId: "Mercy",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "..images/kevin.jpg",
+        image: "./images/kevin.jpg",
         twitchId: "ESL_SC2",
         format: "left",
         twitchImg: "./images/default.jpg"
