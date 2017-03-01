@@ -3,22 +3,22 @@ angular.module('redzoneApp', ['ui.router'])
         $stateProvider
             .state('Team', {
                 url: '/',
-                templateUrl: "../views/team.html",
+                templateUrl: "./views/team.html",
                 controller: 'teamCtrl'
             })
             .state('Twitch', {
                 url: '/twitch',
-                templateUrl: "../views/twitch.html",
+                templateUrl: "./views/twitch.html",
                 controller: "twitchCtrl"
             })
             .state('Stats', {
                 url: '/stats',
-                templateUrl: "../views/stats.html",
+                templateUrl: "./views/stats.html",
                 controller: 'statsCtrl'
             })
             .state('Events', {
                 url: '/events',
-                templateUrl: "../views/events.html",
+                templateUrl: "./views/events.html",
                 controller: "eventsCtrl"
             })
 
