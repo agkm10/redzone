@@ -4,7 +4,7 @@
 </div>
 <div class="card-panel grey lighten-1" ng-repeat="user in roster">
   <div>
-                <div><img class="teamImg" src="{{user.image}}"></div>
+                <div><img class="teamImg" ng-src="{{user.image}}"></div>
                 <div>{{user.gamerId}}</div>
               </div>
             <div class="teamCardBio">{{user.bio}}</div>

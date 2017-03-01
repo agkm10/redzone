@@ -13,49 +13,49 @@ angular.module('redzoneApp').service('teamService', function() {
         name: "Russell Wright",
         gamerId: "Buckks",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "../images/russell.jpg",
+        image: "./images/russell.jpg",
         twitchId: "FreeCodeCamp",
         format: "left",
-        twitchImg: "../images/default.jpg"
+        twitchImg: "./images/default.jpg"
     }, {
         name: "Jeff McGee",
         gamerId: "Oxy",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "../images/jeff.jpg",
+        image: "./images/jeff.jpg",
         twitchId: "Magoo216969",
         format: "right",
-        twitchImg: "../images/magoo.jpeg"
+        twitchImg: "..images/magoo.jpeg"
     }, {
         name: "Kevin Lafountain",
         gamerId: "Mercy",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "../images/kevin.jpg",
+        image: "..images/kevin.jpg",
         twitchId: "ESL_SC2",
         format: "left",
-        twitchImg: "../images/default.jpg"
+        twitchImg: "./images/default.jpg"
     }, {
         name: "Kyle McGallion",
         gamerId: "sides",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "../images/kylem.jpg",
+        image: "./images/kylem.jpg",
         twitchId: "Kylemcg09",
         format: "right",
-        twitchImg: "../images/default.jpg"
+        twitchImg: "./images/default.jpg"
     }, {
         name: "Cris Mirbach",
         gamerId: "ididid",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "../images/cris.jpg",
+        image: "./images/cris.jpg",
         twitchId: "suburbluke",
         format: "right",
-        twitchImg: "../images/default.jpg"
+        twitchImg: "./images/default.jpg"
     }, {
         name: "Luke Jumper",
         gamerId: "backyardsluts9",
         bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        image: "../images/luke.jpg",
+        image: "./images/luke.jpg",
         twitchId: "suburbluke",
         format: "right",
-        twitchImg: "../images/default.jpg"
+        twitchImg: "./images/default.jpg"
     }]
 })
