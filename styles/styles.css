@@ -1,0 +1,256 @@
+html {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: csgo;
+    src: url(cs_regular.ttf);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: lightgrey;
+    font-family: csgo;
+}
+
+.teamImg {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+}
+
+.teamCard {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.teamCardBio {
+    margin-left: 10px;
+}
+
+.main {
+    background-color: darkgrey;
+    margin: auto;
+    padding-left: 30px;
+    width: 100%;
+    height: 100px;
+    background: url("http://media.steampowered.com/apps/csgo/blog/images/bowie_gridsmaller.jpg") no-repeat center center / cover;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+}
+
+.backback {
+    width: 100%;
+    background-color: #0e0e0e;
+    margin: auto;
+    padding-bottom: 2px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.main1 {
+    padding-left: 10px;
+    width: 45%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main2 {
+    width: 45%;
+    margin-right: 30px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main3 {
+    width: 45%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.polygon1 {
+    width: 80px;
+    height: 75px;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #8c1515;
+    opacity: .9;
+    display: none;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    transform: skew(40deg);
+}
+
+.polygon2 {
+    padding: 5px;
+    height: 50px;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #8c1515;
+    opacity: .9;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 5px;
+    transform: skew(40deg);
+}
+
+.polygonLogo1 {
+    padding: 10px;
+    height: 75px;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #8c1515;
+    opacity: .9;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 5px;
+    transform: skew(40deg);
+}
+
+.polygonLogo2 {
+    padding: 10px;
+    height: 75px;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #8c1515;
+    opacity: .9;
+    display: none;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 5px;
+    transform: skew(40deg);
+}
+
+.reverseLogo {
+    transform: skew(-40deg);
+    color: white;
+    font-family: csgo;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.reverse {
+    transform: skew(-40deg);
+    color: white;
+    font-family: csgo;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mobileText {
+    color: white;
+    font-family: csgo;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mobileItem {
+    height: 40px;
+    margin: 1px auto;
+    width: 100vw;
+    background-color: #8c1515;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.view {
+    width: 90%;
+    margin: 100px auto;
+}
+.twitchImg{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card-panel{
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.card-panel div{
+  margin: 10px;
+}
+.mobileMenu {
+  margin-top: 100px;
+  margin-bottom: -100px;
+}
+/*Stats View*/
+.statsMain {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.statsLeft {
+  width: 20%;
+}
+.statsRight {
+  background-color: white;
+  height: 40vh;
+  width:
+}
+/*End Stats View*/
+@media (min-width: 600px) {
+    .polygon1 {
+        display: flex;
+        margin: 10px;
+    }
+    .polygon2 {
+        display: none;
+        margin: 0px;
+        padding: 10px;
+    }
+    .polygonLogo2 {
+        display: none;
+    }
+    .polygonLogo1 {
+        display: flex;
+    }
+    .reverse {
+        width: 80px;
+    }
+    .main3 {
+      display: none;
+    }
+    .mobileMenu {
+      display:none;
+    }
+
+}

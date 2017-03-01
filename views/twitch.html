@@ -1,0 +1,13 @@
+<div class="mobileText">
+ Twitch Streams
+</div>
+<div class="progress">
+    <div class="indeterminate"></div>
+</div>
+<div class="card-panel red darken-3" ng-repeat="info in twitchInfo">
+  <div><img class="twitchImg" src={{info.twitchImg}}></div>
+  <div>
+  {{info.gamerId}}<br>
+  Status: {{info.stream.status}}
+</div>
+</div>

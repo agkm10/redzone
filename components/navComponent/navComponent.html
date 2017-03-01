@@ -1,0 +1,32 @@
+<div class="header">
+    <div class="main" >
+        <div class="main1">
+            <div class="polygonLogo1">
+                <div class="reverseLogo">Red Zone</div>
+            </div>
+            <div class="polygonLogo2">
+                <div class="reverseLogo">R</div>
+                <div class="reverseLogo">Z</div>
+            </div>
+        </div>
+        <div class="main2">
+          <div ng-repeat="menu in $ctrl.menuItems">
+          <a ui-sref="{{menu.item}}">  <div class="polygon polygon1" >
+                <div class="reverse">{{menu.item}}</div>
+            </div></a>
+          </div>
+            <div class=main3 ng-click="$ctrl.hideMobileMenu()">
+                <div class="polygon polygon2" ng-repeat="menu in $ctrl.menuItems">
+                    <div class="reverse"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobileMenu" ng-show="$ctrl.myVar">
+  <div  ng-repeat="menu in $ctrl.menuItems">
+    <a ui-sref="{{menu.item}}"><div class="mobileItem">
+        <div class="mobileText">{{menu.item}}</div>
+    </div></a>
+  </div>
+</div>
