@@ -1,7 +1,9 @@
 angular.module('redzoneApp').controller('statsCtrl', function($scope, statsService, teamService){
-   $(document).ready(function(){
-  $('.collapsible').collapsible();
-  $scope.teamRoster = teamService.roster
-});
-
+$scope.teamRoster = teamService.roster
+    statsService.getSteamStats($scope.teamRoster).then(function(result) {
+          $scope.teamMembers = result
+          console.log($scope.teamMembers)
+          $scope.$digest()
+          $('.collapsible').collapsible();
+  });
 })

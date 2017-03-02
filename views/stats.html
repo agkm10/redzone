@@ -4,7 +4,14 @@
 <ul class="collapsible" data-collapsible="accordion">
     <li ng-repeat="member in teamRoster">
       <div class="collapsible-header red darken-3">RZ - {{member.gamerId}}</div>
-      <div class="collapsible-body grey darken-3"><span>Lorem ipsum dolor sit amet.</span></div>
+      <div class="collapsible-body grey darken-3 statsBody">
+        Total Kills - {{member.statkills}}<br>
+        Total Deaths - {{member.statdeaths}}<br>
+        Total Hours - {{member.statehours}}</div>
+    </li>
+    <li>
+      <div class="collapsible-header red darken-3">Check your own stats!</div>
+      <div class="collapsible-body grey darken-3 statsBody"><stats-component></stats-component></div>
     </li>
 
   </ul>

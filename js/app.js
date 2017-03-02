@@ -16,7 +16,7 @@ angular.module('redzoneApp', ['ui.router'])
                 templateUrl: "./views/stats.html",
                 controller: 'statsCtrl'
             })
-            .state('Events', {
+            .state('Matches', {
                 url: '/events',
                 templateUrl: "./views/events.html",
                 controller: "eventsCtrl"

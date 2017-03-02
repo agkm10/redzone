@@ -207,6 +207,10 @@ body {
 .card-panel div{
   margin: 10px;
 }
+.card-panel {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
 .mobileMenu {
   margin-top: 100px;
   margin-bottom: -100px;
@@ -217,6 +221,9 @@ body {
   align-items: center;
   flex-flow: row nowrap;
   justify-content: flex-start;
+}
+.statsBody {
+  color: white;
 }
 .statsLeft {
   width: 20%;

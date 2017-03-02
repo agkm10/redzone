@@ -1,0 +1,10 @@
+<!-- Enter your 64bit Steam ID:<form ng-submit="submit()"><input class="form-control" placeholder="Steam ID" ng-model="steamIdModel" ></form>
+{{wutwut}} -->
+<form ng-submit="$ctrl.submit()" >
+  Enter your 64bit Steam ID:
+  <input type="text" ng-model="$ctrl.text" name="text" />
+  <input type="submit" id="submit" value="Submit" /><br>
+  Total Kills - {{$ctrl.list[0].statkills}}<br>
+  Total Deaths - {{$ctrl.list[0].statdeaths}}<br>
+  Total Hours - {{$ctrl.list[0].statehours}}
+</form>
